@@ -6,10 +6,10 @@ In order to run you need:
 docker-compose up --build
 ```
 
-While this is running, you need to run the following to init the database and
+While this is running, you need to run the following (in the same folder) to init the database and
 such,
 
-```bahs
+```bash
 docker-compose exec web bash
 # This enters a bash inside the web service environment inside it:
 python manage.py migrate
